@@ -7,8 +7,10 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="CameraScript.cs" t="Include" />
           <e p="Grounded.cs" t="Include" />
           <e p="MovementController.cs" t="Include" />
+          <e p="Pause.cs" t="Include" />
           <e p="StartGameButton.cs" t="Include" />
         </e>
       </e>
