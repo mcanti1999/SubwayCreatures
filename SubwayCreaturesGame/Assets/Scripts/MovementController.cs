@@ -7,7 +7,7 @@ public class MovementController : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float jumpStrength = 10f;
-    public bool isGrounded = false;
+    public LayerMask groundLayer;
 
     private Rigidbody2D _rigidbody2D;
 
@@ -17,7 +17,6 @@ public class MovementController : MonoBehaviour
         _rigidbody2D = gameObject.GetComponent<Rigidbody2D>();
     }
     
-    // Update is called once per frame
     private void FixedUpdate()
     {
         Move();
@@ -26,7 +25,7 @@ public class MovementController : MonoBehaviour
     void Update()
     {
         Jump();
-       
+        IsGrounded();
     }
 
     void Move()
@@ -36,9 +35,23 @@ public class MovementController : MonoBehaviour
     }
     void Jump()
     {
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             _rigidbody2D.AddForce(new Vector2(0f, jumpStrength), ForceMode2D.Impulse);
         }
+    }
+
+    bool IsGrounded()
+    {
+        Vector2 pos = transform.position;
+        Vector2 dir = Vector2.down;
+        float distance = GetComponent<BoxCollider2D>().bounds.size.y;
+        Debug.DrawRay(pos,dir,Color.red);
+        RaycastHit2D hit = Physics2D.Raycast(pos, dir, distance, groundLayer);
+        if (hit.collider != null)
+        {
+            return true;
+        }
+        return false;
     }
 }
