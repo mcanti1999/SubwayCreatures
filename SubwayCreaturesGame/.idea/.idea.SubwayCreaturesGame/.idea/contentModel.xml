@@ -12,6 +12,7 @@
           <e p="Grounded.cs" t="Include" />
           <e p="MovementController.cs" t="Include" />
           <e p="Pause.cs" t="Include" />
+          <e p="Respawn.cs" t="Include" />
           <e p="StartGameButton.cs" t="Include" />
         </e>
       </e>
