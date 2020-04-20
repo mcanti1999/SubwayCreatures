@@ -8,7 +8,6 @@ public class MovementController : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpStrength = 10f;
     public LayerMask groundLayer;
-
     private Rigidbody2D _rigidbody2D;
 
     
@@ -45,7 +44,8 @@ public class MovementController : MonoBehaviour
     {
         Vector2 pos = transform.position;
         Vector2 dir = Vector2.down;
-        float distance = GetComponent<BoxCollider2D>().bounds.size.y;
+        float distance = GetComponent<BoxCollider2D>().bounds.size.y/2 + 0.05f;
+        Debug.Log(distance);
         Debug.DrawRay(pos,dir,Color.red);
         RaycastHit2D hit = Physics2D.Raycast(pos, dir, distance, groundLayer);
         if (hit.collider != null)
