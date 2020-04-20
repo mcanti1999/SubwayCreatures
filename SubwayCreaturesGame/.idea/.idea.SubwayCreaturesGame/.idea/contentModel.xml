@@ -6,10 +6,10 @@
     <e p="C:\Users\jonat\OneDrive\Desktop\Studium\4. Semester\GTATA1\SubwayCreatures\SubwayCreaturesGame" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="HelthBar.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CameraScript.cs" t="Include" />
           <e p="CollisionScript.cs" t="Include" />
+          <e p="HelthBar.cs" t="Include" />
           <e p="junk" t="Include">
             <e p="Grounded.cs" t="Include" />
           </e>
