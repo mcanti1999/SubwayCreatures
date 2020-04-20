@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CollisionScript : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class CollisionScript : MonoBehaviour
     {
         if (other.gameObject.name == "Player")
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene("EndScreen");
         }
     }
 }
