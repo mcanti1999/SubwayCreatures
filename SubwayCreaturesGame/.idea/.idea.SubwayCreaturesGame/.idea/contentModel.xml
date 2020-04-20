@@ -9,11 +9,15 @@
         <e p="HelthBar.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CameraScript.cs" t="Include" />
-          <e p="Grounded.cs" t="Include" />
+          <e p="CollisionScript.cs" t="Include" />
+          <e p="junk" t="Include">
+            <e p="Grounded.cs" t="Include" />
+          </e>
           <e p="MovementController.cs" t="Include" />
           <e p="Pause.cs" t="Include" />
           <e p="Respawn.cs" t="Include" />
           <e p="StartGameButton.cs" t="Include" />
+          <e p="Timer.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

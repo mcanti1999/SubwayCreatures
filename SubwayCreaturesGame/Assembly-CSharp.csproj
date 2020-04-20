@@ -59,11 +59,13 @@
   <ItemGroup>
     <Compile Include="Assets\HelthBar.cs" />
     <Compile Include="Assets\Scripts\CameraScript.cs" />
-    <Compile Include="Assets\Scripts\Grounded.cs" />
+    <Compile Include="Assets\Scripts\CollisionScript.cs" />
+    <Compile Include="Assets\Scripts\junk\Grounded.cs" />
     <Compile Include="Assets\Scripts\MovementController.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\Respawn.cs" />
     <Compile Include="Assets\Scripts\StartGameButton.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/User/Anton/Documents/GTATA1/SubwayCreatures/SubwayCreaturesGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
