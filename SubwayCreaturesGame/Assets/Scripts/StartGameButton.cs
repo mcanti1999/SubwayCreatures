@@ -8,6 +8,7 @@ public class StartGameButton : MonoBehaviour
 {
   public void LoadMainScene()
   {
+    Timer.RestartTimer();
     SceneManager.LoadScene("Main");
   }
 }

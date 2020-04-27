@@ -10,7 +10,7 @@ public class CollisionScript : MonoBehaviour
     {
         if (other.gameObject.name == "Player")
         {
-            SceneManager.LoadScene("EndScreen");
+            /*SceneManager.LoadScene("EndScreen");*/
         }
     }
 }

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-    private float timeStart;
+    private static float timeStart;
     public Text hstimer;
 
     // Update is called once per frame
@@ -16,7 +16,7 @@ public class Timer : MonoBehaviour
         hstimer.text = FormatTime(timeStart);
     }
     //changes time format to mm:ss:ms
-    string FormatTime(float time)
+    public static string FormatTime(float time)
     {
         int intTime = (int)time;
         int minutes = intTime / 60;
@@ -25,5 +25,15 @@ public class Timer : MonoBehaviour
         fraction = (fraction % 99);
         string timeText = String.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, fraction);
         return timeText;
+    }
+
+    public static float GetCurrentTime()
+    {
+        return timeStart;
+    }
+
+    public static void RestartTimer()
+    {
+        timeStart = 0f;
     }
 }
