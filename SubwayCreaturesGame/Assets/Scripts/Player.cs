@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using StateMachines;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Event = StateMachines.Event;
 
 
 public class Player : MonoBehaviour
@@ -27,9 +29,10 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Enemy")
+        if (other.gameObject.CompareTag("Enemy"))
         {
             TakeDamage(25);
+            
         }
     }
 
@@ -43,7 +46,7 @@ public class Player : MonoBehaviour
         {
             print("Dead");
             PlayerPrefs.SetFloat("CurrentScore", Timer.GetCurrentTime());
-            SceneManager.LoadScene("EndScreen");
+            StateMachine.Instance.Trigger(Event.EnteredLooseScreen);
             print("like I said, Dead");
         }
         

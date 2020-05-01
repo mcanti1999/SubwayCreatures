@@ -15,12 +15,18 @@
             <e p="Grounded.cs" t="Include" />
             <e p="Respawn.cs" t="Include" />
           </e>
-          <e p="LooseGameHandler.cs" t="Include" />
           <e p="MovementController.cs" t="Include" />
           <e p="Pause.cs" t="Include" />
           <e p="Player.cs" t="Include" />
+          <e p="SM" t="Include">
+            <e p="LooseGameHandler.cs" t="Include" />
+            <e p="MainGameHandler.cs" t="Include" />
+            <e p="MainMenuHandler.cs" t="Include" />
+            <e p="PauseHandler.cs" t="Include" />
+            <e p="PauseHandler2.cs" t="Include" />
+            <e p="Statemachine.cs" t="Include" />
+          </e>
           <e p="StartGameButton.cs" t="Include" />
-          <e p="Statemachine.cs" t="Include" />
           <e p="Timer.cs" t="Include" />
         </e>
       </e>
