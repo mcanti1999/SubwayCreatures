@@ -19,7 +19,7 @@ public class LoadMainSceneButton : MonoBehaviour
       StateMachine.Instance.Trigger(Event.EnteredMainGame);
     }
     
-    Timer.RestartTimer();
+    //Timer.RestartTimer();
   }
 
 }

@@ -12,8 +12,7 @@ public class Player : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
-    public int coincount; 
-    
+    public Timer timer;
     public HealthBar healthBar;
 
     // Start is called before the first frame update
@@ -23,6 +22,7 @@ public class Player : MonoBehaviour
     }
     
 
+    //gets damaged when colliding with Eneny
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Enemy"))
@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
             
         }
     }
-
+    //Take Damage function, when health == 0, then trigger Loose Game State and saves 
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -41,20 +41,11 @@ public class Player : MonoBehaviour
         if (currentHealth <= 0)
         {
             print("Dead");
-            PlayerPrefs.SetFloat("CurrentScore", Timer.GetCurrentTime());
+            //PlayerPrefs.SetString("CurrentScore",timer.FormatTime(timer.GetCurrentTime()));
             StateMachine.Instance.Trigger(Event.EnteredLooseScreen);
-            print("like I said, Dead");
         }
         
     }
 
-    public void IncreaseCCountBy50()
-    {
-        coincount = coincount + 50;
-    }
-
-    public int GetCoinCount()
-    {
-        return coincount;
-    }
+    
 }

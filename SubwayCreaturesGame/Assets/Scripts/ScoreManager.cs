@@ -9,7 +9,7 @@ namespace DefaultNamespace
         public Text coinText;
         private int score;
         private static ScoreManager instance;
-
+        //Singleton stuff
         public static ScoreManager Instance
         {
             get
@@ -61,6 +61,7 @@ namespace DefaultNamespace
             //DontDestroyOnLoad(gameObject);
         }
 
+        //adds coin value to existing score
         public void ChangeScore(int coinValue)
         {
             score += coinValue;
