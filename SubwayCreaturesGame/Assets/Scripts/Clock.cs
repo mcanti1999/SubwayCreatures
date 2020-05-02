@@ -4,11 +4,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Timer : MonoBehaviour
+public class Clock : MonoBehaviour
 {
+    public static Clock Instance { get; private set; }
+
     private float timeStart;
     public Text hstimer;
 
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+    
     // Update is called once per frame
     void Update()
     {

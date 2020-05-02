@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using StateMachines;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 using Event = StateMachines.Event;
 
@@ -12,7 +13,6 @@ public class Player : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
-    public Timer timer;
     public HealthBar healthBar;
 
     // Start is called before the first frame update
@@ -41,7 +41,7 @@ public class Player : MonoBehaviour
         if (currentHealth <= 0)
         {
             print("Dead");
-            //PlayerPrefs.SetString("CurrentScore",timer.FormatTime(timer.GetCurrentTime()));
+            PlayerPrefs.SetFloat("CurrentScore",Clock.Instance.GetCurrentTime());
             StateMachine.Instance.Trigger(Event.EnteredLooseScreen);
         }
         
