@@ -15,8 +15,8 @@ public class EndScreen : MonoBehaviour
             PlayerPrefs.SetFloat("HighScore",PlayerPrefs.GetFloat("CurrentScore"));
         }
 
-        highScore.text = Timer.FormatTime(PlayerPrefs.GetFloat("HighScore"));
-        currentScore.text = Timer.FormatTime(PlayerPrefs.GetFloat("CurrentScore"));
+        highScore.text = PlayerPrefs.GetString("HighScore");
+        currentScore.text = PlayerPrefs.GetString("CurrentScore");
     }
     
 }
