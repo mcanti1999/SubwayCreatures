@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
     }
     
 
-    //gets damaged when colliding with Eneny
+    //gets damaged when colliding with Enemy
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Enemy"))

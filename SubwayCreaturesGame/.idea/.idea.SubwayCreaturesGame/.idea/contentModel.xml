@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Anton\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Anton\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_SubwayCreaturesGame.77906542.00" t="ExcludeRecursive" />
-    <e p="D:\User\Anton\Documents\GTATA1\SubwayCreatures\SubwayCreaturesGame" t="IncludeRecursive">
+    <e p="C:\Users\jonat\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\jonat\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_SubwayCreaturesGame.96414033.00" t="ExcludeRecursive" />
+    <e p="C:\Users\jonat\OneDrive\Desktop\Studium\4. Semester\GTATA1\SubwayCreatures\SubwayCreaturesGame" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -29,7 +29,7 @@
             <e p="MainMenuHandler.cs" t="Include" />
             <e p="PauseHandler.cs" t="Include" />
             <e p="PauseHandler2.cs" t="Include" />
-            <e p="StateMachine.cs" t="Include" />
+            <e p="Statemachine.cs" t="Include" />
           </e>
         </e>
       </e>

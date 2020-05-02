@@ -10,10 +10,10 @@ public class EndScreen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        loadHighScore();
+        LoadHighScore();
     }
-
-    void loadHighScore()
+    //sets highscore and sets the score texts
+    void LoadHighScore()
     {
         if (PlayerPrefs.GetFloat("CurrentScore") < PlayerPrefs.GetFloat("HighScore") || PlayerPrefs.GetFloat("HighScore") == 0f)
         {

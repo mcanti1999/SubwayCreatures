@@ -68,6 +68,7 @@ public class MovementController : MonoBehaviour
         return false;
     }
     //fast falling is a mechanic popular in platform fighters like super smash bros
+    //if player is about to fall, press down(s) to fall faster
     void FastFall()
     {
         if (playerBody.velocity.y < 1 && Input.GetKeyDown(KeyCode.S) && !IsGrounded())

@@ -32,7 +32,7 @@ public class EnemySpawn : MonoBehaviour
         {
             if (playerpos.x > (spawnpos.x - spawnOffset))
             {
-                Debug.Log(playerpos.x+"  "+spawnpos.x);
+                
                 Instantiate(enemyPrefab, spawnpos,spawnpoint.transform.rotation);
                 wasSpawned = true;
                 Destroy(spawnpoint);
