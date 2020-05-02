@@ -8,6 +8,7 @@ using Event = StateMachines.Event;
 
 public class LoadMainSceneButton : MonoBehaviour
 {
+  //switches to main scene depending on where we came from
   public void LoadMainScene()
   {
     if (SceneManager.GetActiveScene().name == "EndScreen")

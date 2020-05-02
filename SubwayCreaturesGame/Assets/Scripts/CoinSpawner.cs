@@ -13,9 +13,4 @@ public class CoinSpawner : MonoBehaviour
         GameObject coin2 = Instantiate(coinPrefab, new Vector3(11,0,0), transform.rotation);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
