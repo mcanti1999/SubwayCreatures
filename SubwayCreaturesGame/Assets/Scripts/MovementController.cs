@@ -7,11 +7,11 @@ public class MovementController : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float jumpStrength = 10f;
+    public float fastFallStrength = 10f;
     public LayerMask groundLayer;
     private Rigidbody2D playerBody;
     private bool _jump = false;
-
-    
+    private bool _canFastFall = false;
     private void Awake()
     {
         playerBody = gameObject.GetComponent<Rigidbody2D>();
@@ -20,9 +20,16 @@ public class MovementController : MonoBehaviour
     private void FixedUpdate()
     {
         Move();
+        //jump
         if(_jump && IsGrounded()) {
             playerBody.AddForce(new Vector2(0f, jumpStrength), ForceMode2D.Impulse);
             _jump = false;
+        }
+        //fast falling
+        if (_canFastFall)
+        {
+            playerBody.AddForce(new Vector2(0f,-fastFallStrength));
+            
         }
     }
 
@@ -30,6 +37,7 @@ public class MovementController : MonoBehaviour
     {
         Jump();
         IsGrounded();
+        FastFall();
     }
 
     void Move()
@@ -44,7 +52,7 @@ public class MovementController : MonoBehaviour
             _jump = true;
         }
     }
-
+    //draws raycast and checks if we are standing on the ground
     bool IsGrounded()
     {
         Vector2 pos = transform.position;
@@ -54,8 +62,18 @@ public class MovementController : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(pos, dir, distance, groundLayer);
         if (hit.collider != null)
         {
+            _canFastFall = false;
             return true;
         }
         return false;
+    }
+    //fast falling is a mechanic popular in platform fighters like super smash bros
+    void FastFall()
+    {
+        if (playerBody.velocity.y < 1 && Input.GetKeyDown(KeyCode.S) && !IsGrounded())
+        {
+            
+            _canFastFall = true;
+        }
     }
 }
