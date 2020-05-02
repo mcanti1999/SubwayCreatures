@@ -10,13 +10,18 @@ public class EndScreen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (PlayerPrefs.GetFloat("CurrentScore") < PlayerPrefs.GetFloat("HighScore"))
+        loadHighScore();
+    }
+
+    void loadHighScore()
+    {
+        if (PlayerPrefs.GetFloat("CurrentScore") < PlayerPrefs.GetFloat("HighScore") || PlayerPrefs.GetFloat("HighScore") == 0f)
         {
             PlayerPrefs.SetFloat("HighScore",PlayerPrefs.GetFloat("CurrentScore"));
         }
 
-        highScore.text = PlayerPrefs.GetString("HighScore");
-        currentScore.text = PlayerPrefs.GetString("CurrentScore");
+        highScore.text = Clock.Instance.FormatTime(PlayerPrefs.GetFloat("HighScore"));
+        currentScore.text = Clock.Instance.FormatTime(PlayerPrefs.GetFloat("CurrentScore"));
     }
     
 }

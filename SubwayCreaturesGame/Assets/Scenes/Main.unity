@@ -599,7 +599,6 @@ MonoBehaviour:
     type: 3}
   player: {fileID: 928876140}
   spawnpoint: {fileID: 1230320493}
-  spawnOffset: 12
 --- !u!1 &523625716
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,6 +673,7 @@ Transform:
   - {fileID: 258128146}
   - {fileID: 138843180}
   - {fileID: 329091202}
+  - {fileID: 1810064934}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -883,7 +883,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
-  timer: {fileID: 0}
   healthBar: {fileID: 259992780}
 --- !u!1 &1230320493
 GameObject:
@@ -1439,6 +1438,50 @@ Transform:
   m_Father: {fileID: 787834726}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1810064933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1810064934}
+  - component: {fileID: 1810064935}
+  m_Layer: 0
+  m_Name: ClockManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1810064934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810064933}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 787834726}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1810064935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810064933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 596df55509d245945af718d1fea937df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hstimer: {fileID: 1916018008}
 --- !u!1 &1863901640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,9 +1579,8 @@ GameObject:
   - component: {fileID: 1916018007}
   - component: {fileID: 1916018009}
   - component: {fileID: 1916018008}
-  - component: {fileID: 1916018010}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Clock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1603,19 +1645,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1916018006}
   m_CullTransparentMesh: 0
---- !u!114 &1916018010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1916018006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d992d13ada43e24393baf60531a3f4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hstimer: {fileID: 1916018008}
 --- !u!1 &1916855962
 GameObject:
   m_ObjectHideFlags: 0
