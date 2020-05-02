@@ -7,7 +7,6 @@ namespace StateMachines
     {
         public override void OnEnter()
         {
-            
             SceneManager.LoadScene("Main");
         }
 

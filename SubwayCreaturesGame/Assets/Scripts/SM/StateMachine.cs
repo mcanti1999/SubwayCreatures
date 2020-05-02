@@ -111,7 +111,6 @@ namespace StateMachines
             if (currentState == expectedState) {
                 Debug.Log($"[{currentState.stateName}] -> [{nextState.stateName}]");
                 currentState.onExit?.Invoke();
-                currentState.onExit?.Invoke();
                 currentState = nextState;
                 nextState.onEnter?.Invoke();
                 return true;
@@ -139,6 +138,7 @@ namespace StateMachines
             if (handler != null) {
                 onEnter += handler.OnEnter;
                 onExit += handler.OnExit;
+
             }
         }
     }

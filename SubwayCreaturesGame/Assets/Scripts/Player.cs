@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using StateMachines;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using Event = StateMachines.Event;
 
 
@@ -11,21 +12,16 @@ public class Player : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
-
-
-    public HealthBar healthBar;
+    public int coincount; 
     
+    public HealthBar healthBar;
+
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -50,5 +46,15 @@ public class Player : MonoBehaviour
             print("like I said, Dead");
         }
         
+    }
+
+    public void IncreaseCCountBy50()
+    {
+        coincount = coincount + 50;
+    }
+
+    public int GetCoinCount()
+    {
+        return coincount;
     }
 }

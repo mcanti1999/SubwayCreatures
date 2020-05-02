@@ -58,21 +58,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraScript.cs" />
+    <Compile Include="Assets\Scripts\Coin.cs" />
+    <Compile Include="Assets\Scripts\CoinSpawner.cs" />
     <Compile Include="Assets\Scripts\CollisionScript.cs" />
     <Compile Include="Assets\Scripts\EndScreen.cs" />
     <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\junk\Grounded.cs" />
     <Compile Include="Assets\Scripts\junk\Respawn.cs" />
+    <Compile Include="Assets\Scripts\LoadMainSceneButton.cs" />
     <Compile Include="Assets\Scripts\MovementController.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\SM\LooseGameHandler.cs" />
     <Compile Include="Assets\Scripts\SM\MainGameHandler.cs" />
     <Compile Include="Assets\Scripts\SM\MainMenuHandler.cs" />
     <Compile Include="Assets\Scripts\SM\PauseHandler.cs" />
     <Compile Include="Assets\Scripts\SM\PauseHandler2.cs" />
     <Compile Include="Assets\Scripts\SM\StateMachine.cs" />
-    <Compile Include="Assets\Scripts\StartGameButton.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/jonat/OneDrive/Desktop/Studium/4. Semester/GTATA1/SubwayCreatures/SubwayCreaturesGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

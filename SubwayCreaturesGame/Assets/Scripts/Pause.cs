@@ -33,14 +33,14 @@ public class Pause : MonoBehaviour
     //Note to myself: if scripts still work while timescale is 0, disable and enable them here 
     private void PauseGame()
     {
-       // Time.timeScale = 0;
-        StateMachine.Instance.Trigger(Event.EnteredPauseScreen);
+        Time.timeScale = 0;
+        //StateMachine.Instance.Trigger(Event.EnteredPauseScreen);
         pausePanel.SetActive(true);
     } 
     private void ContinueGame()
     {
-       // Time.timeScale = 1;
+        Time.timeScale = 1;
         pausePanel.SetActive(false);
-        StateMachine.Instance.Trigger(Event.ExitedPauseScreen);
+        //StateMachine.Instance.Trigger(Event.ExitedPauseScreen);
     }
 }

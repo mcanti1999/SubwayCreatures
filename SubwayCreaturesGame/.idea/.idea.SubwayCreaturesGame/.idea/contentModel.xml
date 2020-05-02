@@ -8,6 +8,8 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CameraScript.cs" t="Include" />
+          <e p="Coin.cs" t="Include" />
+          <e p="CoinSpawner.cs" t="Include" />
           <e p="CollisionScript.cs" t="Include" />
           <e p="EndScreen.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
@@ -15,9 +17,11 @@
             <e p="Grounded.cs" t="Include" />
             <e p="Respawn.cs" t="Include" />
           </e>
+          <e p="LoadMainSceneButton.cs" t="Include" />
           <e p="MovementController.cs" t="Include" />
           <e p="Pause.cs" t="Include" />
           <e p="Player.cs" t="Include" />
+          <e p="ScoreManager.cs" t="Include" />
           <e p="SM" t="Include">
             <e p="LooseGameHandler.cs" t="Include" />
             <e p="MainGameHandler.cs" t="Include" />
@@ -26,7 +30,6 @@
             <e p="PauseHandler2.cs" t="Include" />
             <e p="Statemachine.cs" t="Include" />
           </e>
-          <e p="StartGameButton.cs" t="Include" />
           <e p="Timer.cs" t="Include" />
         </e>
       </e>

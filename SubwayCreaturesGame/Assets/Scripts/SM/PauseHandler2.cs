@@ -6,12 +6,12 @@ namespace StateMachines
     {
         public override void OnEnter()
         {
-            Time.timeScale = 0;
+            //Time.timeScale = 0;
         }
 
         public override void OnExit()
         {
-            Time.timeScale = 1;
+            //Time.timeScale = 1;
         }
     }
 }

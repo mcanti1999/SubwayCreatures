@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Event = StateMachines.Event;
 
-public class StartGameButton : MonoBehaviour
+public class LoadMainSceneButton : MonoBehaviour
 {
   public void LoadMainScene()
   {
