@@ -12,6 +12,7 @@ public class MovementController : MonoBehaviour
     private Rigidbody2D playerBody;
     private bool _jump = false;
     private bool _canFastFall = false;
+    private bool _facingRight = true;
     private void Awake()
     {
         playerBody = gameObject.GetComponent<Rigidbody2D>();
@@ -42,8 +43,17 @@ public class MovementController : MonoBehaviour
 
     void Move()
     {
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"),0f,0f);
+        float move = Input.GetAxis("Horizontal");
+        Vector3 movement = new Vector3(move,0f,0f);
         transform.position += movement * (Time.deltaTime * moveSpeed);
+        if (move > 0 && !_facingRight)
+        {
+            Flip();
+        }
+        else if (move < 0 && _facingRight)
+        {
+            Flip();
+        }
     }
     void Jump()
     {
@@ -76,5 +86,12 @@ public class MovementController : MonoBehaviour
             
             _canFastFall = true;
         }
+    }
+
+    //flips the direction of the player
+    private void Flip()
+    {
+        _facingRight = !_facingRight;
+        transform.Rotate(0f,180f,0f);
     }
 }

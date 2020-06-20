@@ -80,6 +80,8 @@ namespace StateMachines
             winGameState = new State("Won Game", winGameHandler);
             
             currentState = mainMenuState;
+            
+            //this is bs
             Trigger(Event.EnteredMainMenu);
 
 

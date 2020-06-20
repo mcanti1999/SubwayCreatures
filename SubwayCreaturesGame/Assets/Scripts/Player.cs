@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
     }
     //Take Damage function, when health == 0, then trigger Loose Game State and saves 
     void TakeDamage(int damage)
-    {
+         {
         currentHealth -= damage;
         
         healthBar.SetHealth(currentHealth);
@@ -47,5 +47,6 @@ public class Player : MonoBehaviour
         
     }
 
+    
     
 }
