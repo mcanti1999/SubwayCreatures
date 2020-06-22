@@ -2,26 +2,140 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4033c185-53e7-42dc-8ba5-df5defcb9454" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Walls.physicsMaterial2D" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Walls.physicsMaterial2D.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/New Palette.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/New Palette.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_10.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_10.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_11.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_11.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_12.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_12.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_13.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_13.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_14.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_14.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_15.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_15.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_16.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_16.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_17.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_17.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_18.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_18.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_19.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_19.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_20.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_20.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_21.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_21.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_22.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_22.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_23.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_23.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_24.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_24.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_25.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_25.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_26.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_26.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_7.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_7.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_8.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_8.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_9.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Palettes/Tiles/Tilemap_Blocks_9.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy Dummy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy Dummy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Temp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Temp.js.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/SubwayCreatures_Enemy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/SubwayCreatures_Enemy.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/SubwayCreatures_Player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/SubwayCreatures_Player.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tile Map.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tile Map/Tilemap_Blocks 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tile Map/Tilemap_Blocks 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tile Map/Tilemap_Blocks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tile Map/Tilemap_Blocks.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_10.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_10.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_11.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_11.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_12.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_12.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_13.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_13.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_14.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_14.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_15.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_15.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_16.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_16.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_17.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_17.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_18.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_18.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_19.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_19.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_20.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_20.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_21.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_21.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_22.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_22.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_23.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_23.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_24.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_24.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_25.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_25.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_26.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_26.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_7.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_7.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_8.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_8.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_9.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tilemap_Blocks 1_9.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SubwayCreaturesGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SubwayCreaturesGame/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SubwayCreaturesGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SubwayCreaturesGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SubwayCreaturesGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SubwayCreaturesGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Edward.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Edward.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Start.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SM/PauseHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SM/PauseHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SM/StateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SM/StateMachine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,29 +146,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndScreen.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovementController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Clock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SM/PauseHandler2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pause.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SM/MainMenuHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SM/LooseGameHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SM/PauseHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Coin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/40699C02-4E8B-4DCA-9ED0-CA044E229DCC/49/04a7a0c5/Action.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/junk/Grounded.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SM/PauseHandler2.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/junk/Respawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SM/MainGameHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovementController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SM/StateMachine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Clock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Level 1.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadMainSceneButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Main.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pause.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Main.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Coin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -66,6 +178,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HelthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollisionScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Sprites/Statemachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LooseGameHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainGameHandler.cs" />
@@ -73,24 +186,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SM/MainMenuHanlder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SM/MainMenuHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StartGameButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SM/PauseHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SM/MainGameHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SM/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SM/PauseHandler2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Coin.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pause.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadMainSceneButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Clock.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EndScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SM/StateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SM/PauseHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EndScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MeshGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" />
       </list>
     </option>
@@ -162,12 +271,13 @@
       <workItem from="1588362047083" duration="167000" />
       <workItem from="1588411652394" duration="13709000" />
       <workItem from="1588395677338" duration="4327000" />
-      <workItem from="1588524288682" duration="1000" />
-      <workItem from="1588610401851" duration="1361000" />
-      <workItem from="1590347318075" duration="3227000" />
-      <workItem from="1590494875198" duration="1866000" />
-      <workItem from="1591377737742" duration="4617000" />
-      <workItem from="1592652407333" duration="4003000" />
+      <workItem from="1588535341182" duration="131000" />
+      <workItem from="1589900346846" duration="4938000" />
+      <workItem from="1592662013862" duration="1743000" />
+      <workItem from="1592673951628" duration="2657000" />
+      <workItem from="1592739515518" duration="2186000" />
+      <workItem from="1592753555022" duration="1521000" />
+      <workItem from="1592830299590" duration="1255000" />
     </task>
     <servers />
   </component>

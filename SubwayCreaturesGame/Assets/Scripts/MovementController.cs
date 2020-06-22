@@ -62,12 +62,12 @@ public class MovementController : MonoBehaviour
             _jump = true;
         }
     }
-    //draws raycast and checks if we are standing on the ground
+    //draws raycast and checks if Player is standing on the ground
     bool IsGrounded()
     {
         Vector2 pos = transform.position;
         Vector2 dir = Vector2.down;
-        float distance = GetComponent<BoxCollider2D>().bounds.size.y/2 + 0.05f;
+        float distance = GetComponent<BoxCollider2D>().bounds.size.y/2 + 0.1f;
         Debug.DrawRay(pos,dir,Color.red);
         RaycastHit2D hit = Physics2D.Raycast(pos, dir, distance, groundLayer);
         if (hit.collider != null)
