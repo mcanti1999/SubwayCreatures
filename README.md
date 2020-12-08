@@ -1,2 +1,3 @@
 # SubwayCreatures
-A game project for GTATA1
+A game for our game technologies course at HTW Berlin
+
